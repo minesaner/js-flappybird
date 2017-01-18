@@ -257,7 +257,6 @@ function drawTip() {
 	context.font = '30px Arial'
 	context.textAlign = 'center'
 	context.textBaseline = 'middle'
-	console.log(sceneWidth, context.measureText(tip).width)
 	context.fillText(tip, sceneWidth / 2, sceneHeight - 30)
 	context.restore()
 }
